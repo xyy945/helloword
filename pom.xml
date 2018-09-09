@@ -19,5 +19,8 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
-
+    <build>
+        <defaultGoal>install</defaultGoal>
+        <finalName>helloword</finalName>
+    </build>
 </project>
